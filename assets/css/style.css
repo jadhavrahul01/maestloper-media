@@ -934,6 +934,11 @@ svg.swiper-arrow {
 /* 2.8 Spacer */
 .mb-30 {
     margin-bottom: 30px !important;
+
+}
+
+.ml-150 {
+    margin-left: 150px;
 }
 
 .mb-50 {
@@ -3971,8 +3976,6 @@ textarea.agy-form-field {
 
 }
 
-@media (max-width: 1400px) and (min-width: 1200px) {}
-
 @media (min-width: 1200px) {
     .agy-search-wrapper {
         padding-left: 25px;
@@ -4098,6 +4101,10 @@ textarea.agy-form-field {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .ml-150 {
+        margin-left: 80px;
+    }
+
     .agy-nav-items {
         width: 68%;
     }
@@ -4263,6 +4270,10 @@ textarea.agy-form-field {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+    .ml-150 {
+        margin-left: 0px;
+    }
 
     .agy-about-wrapper .row,
     .agy-work-wrapper .row {
@@ -4657,6 +4668,26 @@ textarea.agy-form-field {
 
     .agy-top-header {
         display: none;
+    }
+
+    .ml-150 {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 300px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    .project-page #project-con {
+        margin-left: 9px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .ml-150 {
+        margin-left: 0px;
     }
 }
 
