@@ -1530,7 +1530,7 @@ svg.swiper-arrow {
     margin: auto;
     transform: rotate(45deg);
     border-radius: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;  
 }
 
 .agy-counter-icon img {
@@ -1555,7 +1555,10 @@ svg.swiper-arrow {
     transition: all 0.5s;
 }
 
-
+/* .country{
+    color: #fff;
+    font-size: 3rem;
+} */
 /********************************************************
 	8. Service Start
 *******************************************************/
