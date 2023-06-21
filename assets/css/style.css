@@ -13,6 +13,10 @@ Author: PixelNX
 -------------------------------------------------------------------*/
 /*	1. Global CSS  */
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     --agency-global-family: 'Outfit', sans-serif;
     --agency-title-family: 'Outfit', sans-serif;
@@ -1530,7 +1534,7 @@ svg.swiper-arrow {
     margin: auto;
     transform: rotate(45deg);
     border-radius: 15px;
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
 }
 
 .agy-counter-icon img {
@@ -2008,6 +2012,133 @@ svg.swiper-arrow {
 /********************************************************
 	10. Work Start
 *******************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300;400;500&display=swap');
+
+.agy-work-wrapper .container .row {
+    font-family: "Outfit";
+}
+
+.slide-subtitle,
+.about-small-stitle {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #1c1c25;
+    position: relative;
+    padding-left: 23px;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+    font-family: "Albert Sans", Sans-serif;
+}
+
+.about-small-stitle::before {
+    box-shadow: 0px 3px 11px rgba(14, 89, 242, 0.4);
+}
+
+.slide-subtitle:before,
+.about-small-stitle:before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #0e59f2;
+    top: 0;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    border-radius: 2px;
+}
+
+#about-title {
+    font-family: 'Playfair', serif;
+    font-weight: 300;
+    font-size: 3.2rem;
+    margin-bottom: 32px;
+    line-height: 58px;
+}
+
+.about-des {
+    font-family: 'Outfit', sans-serif;
+}
+
+.about-des ul li:after {
+    content: "";
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    background: #1c1c25;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.about-des ul li {
+    font-size: 18px;
+    line-height: 34px;
+    color: #1c1c25;
+    list-style: none;
+    position: relative;
+    padding-left: 15px;
+}
+
+.about-des p {
+    color: #706f6f;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-des ul {
+    margin: 20px 0 0;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.aboutbtn {
+    background-color: #0e59f2;
+    height: 60px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    margin-top: 20px;
+}
+
+.aboutbtn a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.aboutbtn:hover {
+    background-color: #1c1c25;
+}
+
+.workimg .workimg1 {
+    position: relative;
+}
+
+.workimg .workimg2 {
+    position: absolute;
+    transform: translateY(-350px);
+    box-shadow: 1px 1px 0px 5px #fff;
+    border-radius: 25px;
+}
+
+.elementor-background-overlay {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: radial-gradient(at center right, #4268F0 17%, #4268F000 76%);
+    opacity: 0.35;
+}
 
 .agy-work-wrapper {
     background: var(--agency-alternate-color);
@@ -2566,7 +2697,7 @@ svg.swiper-arrow {
 
 .agy-partner-wrapper {
     padding: 80px 0 50px;
-    background: url(../images/agency-alternate-bg.jpg) no-repeat;
+    background: #fff;
     background-size: cover;
     background-position: center;
 }
@@ -2589,6 +2720,84 @@ svg.swiper-arrow {
     transition: all 0.5s;
 }
 
+.partner-title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.partner-title .partner-small-stitle {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    color: #01020e;
+    position: relative;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+
+.partner-title .partner-small-stitle::after {
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #0e59f2;
+    top: 0;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    border-radius: 2px;
+    box-shadow: 0px 3px 11px rgba(14, 89, 242, 0.4);
+}
+
+.partner-title .partner-small-stitle::before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #0e59f2;
+    top: 0;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    border-radius: 2px;
+    box-shadow: 0px 3px 11px rgba(14, 89, 242, 0.4);
+}
+
+.partner-big-stitle {
+    font-family: 'Playfair', serif;
+    font-weight: 300;
+    font-size: 3.2rem;
+    margin-bottom: 32px;
+    line-height: 58px;
+}
+
+.megabox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.box {
+    height: 180px;
+    width: 280px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px 0 0 0;
+}
+
+.box:hover{
+    box-shadow: 1px 1px 30px 1px rgba(0,0,0,0.5);
+}
 
 /********************************************************
 	16. Footer Start
