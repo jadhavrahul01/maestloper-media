@@ -1453,14 +1453,14 @@ svg.swiper-arrow {
 
 .agy-about-img img {
     position: relative;
-    width: 100%;
+    /* width: 100%; */
 }
 
-.agy-about-text {
+/* .agy-about-text {
     display: inline-block;
     width: 100%;
-    margin: 0 0 30px;
-}
+    margin: 0 0 140px;
+} */
 
 .agy-about-text h2 {
     font-size: 42px;
