@@ -1601,10 +1601,14 @@ svg.swiper-arrow {
     height: 75px;
     display: flex;
     margin-bottom: 30px;
-    /* margin: 0 auto 21px; */
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
+}
+.m-img{
+    height: 400px;
+    width: 100%;
 }
 
 .agy-service-icon:before {
