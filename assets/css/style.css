@@ -1606,7 +1606,8 @@ svg.swiper-arrow {
     justify-content: center;
 
 }
-.m-img{
+
+.m-img {
     height: 400px;
     width: 100%;
 }
@@ -2372,19 +2373,24 @@ svg.swiper-arrow {
 }
 
 .project-page #project-con {
-    margin-left: 60px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .project-page .box {
     height: 250px;
     width: 350px;
     border: 1px solid;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
+    /* display: inline-flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 100px; */
 }
 
 .about-page {
@@ -2416,7 +2422,7 @@ svg.swiper-arrow {
 }
 
 .about-page .box1 {
-    height: 500px;
+    height: 450px;
 }
 
 /********************************************************
@@ -2747,6 +2753,11 @@ svg.swiper-arrow {
     margin-bottom: 41px;
 }
 
+.web1{
+    display: grid;
+    align-items: center;
+}
+
 
 /********************************************************
 	15. Partner Start
@@ -2842,7 +2853,7 @@ svg.swiper-arrow {
     padding-right: 150px;
 }
 
-.box {
+.megabox .box {
     height: 180px;
     width: 280px;
     border: 1px solid rgba(0, 0, 0, 0.5);
@@ -2853,7 +2864,7 @@ svg.swiper-arrow {
     /* background-color: #ffffff8d; */
 }
 
-.box:hover {
+.megabox .box:hover {
     box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -4021,9 +4032,14 @@ textarea.agy-form-field {
 
 @media (min-width: 1000px) and (max-width: 1200px) {
     .project-page #project-con {
-        margin-left: 110px;
+        margin-left: 0;
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
+    }
+
+    .project-page .box {
+        height: 250px;
+        width: 330px;
     }
 }
 
@@ -4217,9 +4233,8 @@ textarea.agy-form-field {
     }
 
     .project-page #project-con {
-        margin-left: 170px;
+        margin-left: 0;
         margin-top: 50px;
-        margin-bottom: 50px;
     }
 
     .about-page .box {
@@ -4245,19 +4260,13 @@ textarea.agy-form-field {
     }
 
     .project-page #project-con {
-        margin-left: 70px;
+        margin-left: 0px;
         margin-top: 50px;
-        margin-bottom: 50px;
     }
 
     .project-page .box {
-        height: 250px;
-        width: 350px;
-        border: 1px solid;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        gap: 100px;
+        height: 200px;
+        width: 230px;
     }
 }
 
@@ -4441,6 +4450,13 @@ textarea.agy-form-field {
 
     .agy-insta-field ul li {
         margin: 0 0 6px;
+    }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 991px) {
+    .project-page .box {
+        height: 210px;
+        width: 300px;
     }
 }
 
@@ -4735,7 +4751,7 @@ textarea.agy-form-field {
     }
 
     .agy-about-wrapper {
-        padding: 100px 0 44px;
+        padding: 25px 0 44px;
     }
 
     .agy-counter-wrapper {
@@ -5033,18 +5049,14 @@ textarea.agy-form-field {
     .about-page .box {
         height: 300px;
         width: 500px;
-        border: 1px solid;
-        /* display: flex;
-        justify-content: center;
-        flex-direction: column; */
     }
 
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 991px) {
     .about-page .box {
         height: 250px;
-        width: 380px;
+        width: 300px;
         /* border: 1px solid; */
         margin-bottom: 25px;
         border: none;
@@ -5060,9 +5072,13 @@ textarea.agy-form-field {
     }
 
     .project-page #project-con {
-        margin-left: 9px;
+        margin-left: 0px;
         margin-top: 50px;
-        margin-bottom: 50px;
+    }
+
+    .project-page .box {
+        height: 220px;
+        width: 250px;
     }
 
     .ml-150 {
@@ -5071,7 +5087,7 @@ textarea.agy-form-field {
 
     .about-page .box {
         height: 250px;
-        width: 380px;
+        width: 350px;
         /* border: 1px solid; */
         margin-bottom: 25px;
         border: none;
