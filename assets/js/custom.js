@@ -277,7 +277,7 @@ Assigned to:
                             }).animate({
                                 countNum: countTo
                             }, {
-                                duration: 5000,
+                                duration: 10000,
                                 easing: 'swing',
                                 step: function() {
                                     $this.text(Math.floor(this.countNum));

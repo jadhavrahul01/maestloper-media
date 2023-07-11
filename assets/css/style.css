@@ -1900,7 +1900,7 @@ svg.swiper-arrow {
 .agy-testimonial-wrapper {
     padding: 75px 0 74px;
     position: relative;
-    background: url(../images/agency-alternate-bg.jpg) no-repeat;
+    background: #000;
     background-size: cover;
     background-position: top center;
 }
