@@ -2151,7 +2151,7 @@ svg.swiper-arrow {
 
 .workimg .workimg2 {
     position: absolute;
-    transform: translateY(-350px);
+    transform: translateY(-400px);
     box-shadow: 1px 1px 0px 5px #fff;
     border-radius: 25px;
 }
@@ -2585,6 +2585,9 @@ svg.swiper-arrow {
 
 .our-website {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .agy-team-hover {
@@ -2761,8 +2764,8 @@ svg.swiper-arrow {
 .websiteimg2 {
     border-radius: 10px;
     position: relative;
-    height: 220px;
-    width: 370px;
+    height: 250px;
+    width: 390px;
     overflow: hidden;
 }
 
@@ -2777,8 +2780,7 @@ svg.swiper-arrow {
     position: absolute;
     background: rgba(255, 255, 255, 0.75);
     backdrop-filter: blur(2px);
-    top: 0;
-    transform: translateY(150px);
+    transform: translateY(-80px);
     text-align: left;
     transition: .3s;
 }
@@ -2797,7 +2799,20 @@ svg.swiper-arrow {
 }
 
 .websiteimg2:hover .cover {
-    transform: translateY(0);
+    transform: translateY(-220px);
+}
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+
+    .websiteimg2 {
+        border-radius: 10px;
+        position: relative;
+        height: 220px;
+        width: 100%;
+        overflow: hidden;
+    }
 }
 
 /********************************************************
