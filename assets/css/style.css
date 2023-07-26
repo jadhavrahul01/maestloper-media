@@ -700,7 +700,7 @@ table th {
 .agy-heading-wrapper h2 {
     position: relative;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 5px;
     color: var(--agency-link-color);
 }
@@ -1348,10 +1348,10 @@ svg.swiper-arrow {
 }
 
 .agy-banner-text h1 {
-    font-size: 58px;
+    font-size: 60px;
     color: var(--agency-link-color);
     line-height: 70px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .agy-banner-text h4 {
@@ -1469,7 +1469,7 @@ svg.swiper-arrow {
     line-height: 50px;
     color: var(--agency-link-color);
     margin-bottom: 10px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .agy-list-item li {
@@ -2265,7 +2265,7 @@ svg.swiper-arrow {
 .agy-quote-text h2 {
     color: var(--agency-white-color);
     font-size: 42px;
-    font-weight: 700;
+    font-weight: 300;
     line-height: 47px;
 }
 
@@ -2277,15 +2277,15 @@ svg.swiper-arrow {
 .agy-quote-text h4 {
     color: var(--agency-white-color);
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 26px;
 }
 
 .agy-quote-text h1 .agy-quate-no {
-    font-size: 56px;
+    font-size: 36px;
     color: var(--agency-white-color);
     display: inline-block;
-    font-weight: 700;
+    font-weight: 300;
     margin-bottom: 1px;
 }
 
@@ -2383,17 +2383,12 @@ svg.swiper-arrow {
     height: 250px;
     width: 350px;
     border: 1px solid;
-    /* display: inline-flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* gap: 100px; */
 }
 
 .about-page {
     width: 100%;
     height: auto;
 }
-
 
 .about-page #project-con {
     height: 100%;
@@ -2408,7 +2403,7 @@ svg.swiper-arrow {
 
 .about-page .box {
     height: 250px;
-    width: 300px;
+    width: 280px;
     /* border: 1px solid; */
 }
 
@@ -2418,7 +2413,7 @@ svg.swiper-arrow {
 }
 
 .about-page .box1 {
-    height: 450px;
+    height: 480px;
 }
 
 /********************************************************
@@ -3058,7 +3053,7 @@ footer {
     color: var(--agency-title-color);
     font-size: 38px;
     line-height: 46px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 6px;
 }
 
