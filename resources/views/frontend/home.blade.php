@@ -3,7 +3,7 @@
 
 @section('content')
     <!-- Slider Section Start -->
-    <section class="main-slider-area bgc-black-with-lighting rel z-1 mob-black">
+    <section class="container main-slider-area bgc-black-with-lighting rel z-1 mob-black">
         <div class="main-slider-active">
 
             <div class="slider-item">
@@ -171,7 +171,7 @@
                                     <div class="icon">
                                         <i class="flaticon-web-programming"></i>
                                     </div>
-                                    <div class="content">
+                                    <div  style="margin-left: 52px;" class="content">
                                         <h4>
                                             <a href="{{ route('services') }}#website">Website Designing</a>
                                         </h4>
@@ -181,9 +181,9 @@
                                 </div>
                             </div>
                             <div class="col-lg-12 col-sm-6">
-                                <div class="service-item style-three wow fadeInRight delay-0-3s">
+                                <div style="margin-left:34px;margin-right: 5px;" class="service-item style-three wow fadeInRight delay-0-3s">
                                     <div class="icon"><i class="flaticon-web-page"></i></div>
-                                    <div class="content">
+                                    <div  style="margin-left: 52px;" class="content">
                                         <h4>
                                             <a href="{{ route('services') }}#digital">Digital Marketing</a>
                                         </h4>
@@ -203,11 +203,11 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
-                                <div class="service-item style-three wow fadeInUp delay-0-3s">
+                                <div  style="margin-left: 30px;" class="service-item style-three wow fadeInUp delay-0-3s">
                                     <div class="icon">
                                         <i class="flaticon-graphic-design"></i>
                                     </div>
-                                    <div class="content">
+                                    <div  style="margin-left: 52px;" class="content">
                                         <h4>
                                             <a href="{{ route('services') }}#social">Social Media Marketing</a>
                                         </h4>
@@ -217,13 +217,15 @@
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <div class="service-item style-three mt-30 wow fadeInUp delay-0-4s">
-                                    <div class="icon"><i class="flaticon-design"></i></div>
-                                    <div class="content">
+                                <div style="margin-right: 30px;margin-left: 6px!important;" class="service-item style-three wow fadeInUp delay-0-3s">
+                                    <div class="icon">
+                                        <i class="flaticon-design"></i>
+                                    </div>
+                                    <div  style="margin-left: 52px;" class="content">
                                         <h4>
-                                            <a href="{{ route('services') }}#graphic">Graphic Designing</a>
+                                            <a href="{{ route('services') }}#social">Graphic Designing</a>
                                         </h4>
-                                        <a class="more-btn" href="{{ route('services') }}#graphic"><i
+                                        <a class="more-btn" href="{{ route('services') }}#social"><i
                                                 class="fal fa-long-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -237,7 +239,7 @@
                             <div class="col-lg-12 col-sm-6">
                                 <div class="service-item style-three mt-100 wow fadeInLeft delay-0-2s">
                                     <div class="icon"><i class="flaticon-online"></i></div>
-                                    <div class="content">
+                                    <div  style="margin-left: 52px;" class="content">
                                         <h4>
                                             <a href="{{ route('services') }}#software">Software Development</a>
                                         </h4>
@@ -248,11 +250,11 @@
                                 </div>
                             </div>
                             <div class="col-lg-12 col-sm-6">
-                                <div class="service-item style-three wow fadeInLeft delay-0-3s">
+                                <div  style="margin-left: 3px!important;margin-right: 31px;"class="service-item style-three wow fadeInLeft delay-0-3s">
                                     <div class="icon">
                                         <i class="flaticon-user-experience"></i>
                                     </div>
-                                    <div class="content">
+                                    <div style="margin-left: 52px;" class="content">
                                         <h4>
                                             <a href="{{ route('services') }}#production">Production</a>
                                         </h4>
@@ -632,10 +634,13 @@
     <!-- Contact Area End -->
 
     {{-- * Brands Logo Section Start* --}}
-    <section class="trigger section gutter-horizontal bg-gray gutter-vertical--m gutter-horizontal">
+    <section class="trigger section gutter-horizontal bg-gray gutter-vertical--m gutter-horizontal pt-30">
         <div class="customer-logos slider">
             <div class="slide-in-right slide">
                 <img src="{{ asset('user-assets/images/client2/1.png') }}">
+            </div>
+            <div class="slide-in-right slide">
+                <img src="{{ asset('user-assets/images/logo-1.svg') }}" style="width:100px;padding-top:40px;padding-bottom:40px;">
             </div>
             <div class="slide-in-right slide">
                 <img src="{{ asset('user-assets/images/client2/2.png') }}">

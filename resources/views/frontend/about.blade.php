@@ -325,6 +325,9 @@
                 <img src="{{ asset('user-assets/images/client2/1.png') }}" alt="Kinderhotel Aschauerhof">
             </div>
             <div class="slide-in-right slide">
+                <img src="{{ asset('user-assets/images/logo-1.svg') }}" style="width:100px;padding-top:40px;padding-bottom:40px;">
+            </div>
+            <div class="slide-in-right slide">
                 <img src="{{ asset('user-assets/images/client2/2.png') }}">
             </div>
             <div class="slide-in-right slide">

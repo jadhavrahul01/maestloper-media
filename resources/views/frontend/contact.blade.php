@@ -108,7 +108,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-5">
                     <div class="contact-info wow fadeInLeft delay-0-2s">
-                        <div class="contact-info-item style-two">
+                        <div style="margin-right: -30px!important;" class="contact-info-item style-two">
                             <div class="icon">
                                 <i class="fal fa-map-marker-alt"></i>
                             </div>
@@ -120,9 +120,9 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="contact-info-item style-two">
+                        <div  style="margin-right: -30px!important;" class="contact-info-item style-two">
                             <div class="icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 512 512" fill="#fff">
+                                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512" fill="#fff">
                                     <path
                                         d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
                                 </svg>
@@ -130,13 +130,13 @@
                             <div class="content">
                                 <span class="title">email address</span>
                                 <span class="text">
-                                    <a href="mailto:info@maestlopermedia.com"><span class="__cf_email__"
+                                    <a href="mailto:maestlopermedia@gmail.com"><span class="__cf_email__"
                                             data-cfemail="®í"></span></a>
-                                    <a href="mailto:info@maestlopermedia.com">info@maestlopermedia.com</a>
+                                    <a href="mailto:maestlopermedia@gmail.com">maestlopermedia@gmail.com</a>
                                 </span>
                             </div>
                         </div>
-                        <div class="contact-info-item style-two">
+                        <div style="margin-right: -30px!important;" class="contact-info-item style-two">
                             <div class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 512 512"
                                     fill="#fff">
@@ -152,7 +152,7 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="follow-us">
+                        <div style="margin-right: -30px!important;" class="follow-us">
                             <h4>Follow Us</h4>
                             <div class="social-style-two">
                                 <a href="https://m.facebook.com/people/maestloper_media/100064850406182/"><i
