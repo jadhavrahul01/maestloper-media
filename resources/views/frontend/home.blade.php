@@ -3,8 +3,8 @@
 
 @section('content')
     <!-- Slider Section Start -->
-    <section class="container main-slider-area bgc-black-with-lighting rel z-1 mob-black">
-        <div class="main-slider-active">
+    <section class=" main-slider-area bgc-black-with-lighting rel z-1 mob-black">
+        <div class="container main-slider-active">
 
             <div class="slider-item">
                 <div class="container" id="cont-slider">
