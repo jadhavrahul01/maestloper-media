@@ -159,8 +159,7 @@
             </button>
             <div class="circle-anime"></div>
         </div>
-        <!--End pagewrapper-->
-        <!-- Jquery -->
+      
 
         <script>
             popupWhatsApp = () => {
